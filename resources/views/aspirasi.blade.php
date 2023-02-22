@@ -95,9 +95,9 @@
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endif
-                @if (request('nik') != null)
+                @if (request('nis') != null)
                     <div class="alert mt-3 alert-danger alert-dismissible fade show" role="alert">
-                        <strong> NIK Anda Belum Terdaftar!! </strong><br>
+                        <strong> NIS Anda Belum Terdaftar!! </strong><br>
                         <small>Silahkan Isi Datanya Kembali Dengan Benar</small>
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
