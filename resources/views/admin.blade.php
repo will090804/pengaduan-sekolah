@@ -99,11 +99,8 @@
                                                     <td>{{ $as->kategori->ket_kategori }}</td>
                                                     <td>{{ $as->input_aspirasi->lokasi }}</td>
                                                     <td>
-                                                        <button type="button" class="btn btn-primary"
-                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                                            Lihat Gambar
-                                                        </button>
-
+                                                        <img src="{{ asset('storage/' . $as->input_aspirasi->bukti) }}"
+                                                            class="img-fluid" alt="" width="100px">
                                                     </td>
                                                     <td>{{ $as->input_aspirasi->ket }}</td>
                                                     <td>{{ $as->created_at }}</td>
@@ -171,11 +168,8 @@
                                                     <td>{{ $as->kategori->ket_kategori }}</td>
                                                     <td>{{ $as->input_aspirasi->lokasi }}</td>
                                                     <td>
-                                                        <button type="button" class="btn btn-primary"
-                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                                            Lihat Gambar
-                                                        </button>
-
+                                                        <img src="{{ asset('storage/' . $as->input_aspirasi->bukti) }}"
+                                                            class="img-fluid" alt="" width="100px">
                                                     </td>
                                                     <td>{{ $as->input_aspirasi->ket }}</td>
                                                     <td>{{ $as->created_at }}</td>
@@ -200,28 +194,6 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- Modal -->
-        <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Bukti Pengaduan</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <center><img src="{{ asset('storage/' . $as->input_aspirasi->bukti) }}"
-                                class="img-fluid rounded-start" alt="">
-                        </center>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>

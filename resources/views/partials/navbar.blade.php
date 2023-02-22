@@ -106,9 +106,10 @@
 </nav>
 
 
-<div class="container">
+<div class="col-12" style="background-color: #DC3545;">
     @if (session()->has('LoginError'))
-        <div class="alert alert-danger my-3 alert-dismissible fade show" role="alert">
+        <div class="alert my-3 alert-dismissible text-light text-center fade show" role="alert"
+            style="background-color: #DC3545;">
             {{ session('LoginError') }}
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>

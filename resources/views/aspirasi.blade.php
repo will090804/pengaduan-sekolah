@@ -8,8 +8,14 @@
                 </div>
             </div>
         </div>
+
     </section>
-    <section id="about" style="height: 100vh;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#DC3545" fill-opacity="1"
+            d="M0,32L60,74.7C120,117,240,203,360,202.7C480,203,600,117,720,106.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+        </path>
+    </svg>
+    <section id="about" style="height: 60vh;">
         <div class="container text-center">
             <div class="row">
                 <div class="col-12">
@@ -40,49 +46,16 @@
                             oleh Yayasan Sandhykara Putra Telkom (YSPT). Peluncuran Telkom Schools dilaksanakan di SMK
                             Telkom Jakarta pada tanggal 23 Januari 2014 oleh Dirjen Pendidikan Menengah Kemendikbud RI Prof.
                             Dr. Ir. Achmad Jazidie beserta Dewan Pengurus dan Pembina Yayasan Sandhykara Putra Telkom.</p>
-
                     </article>
-                </div>
-                <div class="text-success">
-                    <hr>
-                </div>
-                <div class="container">
-                    <h1 class="text-center mt-2">Langkah-Langkah</h1>
-                    <div class="col-lg-12 col-md-12 col-sm-6 mt-5">
-                        <div class="row align-items-center">
-                            <div class="col-sm-6 col-lg-2 col-md-2 border border-dark">
-                                <i class="bi bi-clipboard2-check-fill"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Tulis Laporan!</h6>
-                            </div>
-                            <div class="col-sm-6 col-lg-2 col-md-2  border border-dark">
-                                <i class="bi bi-reply-fill"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Proses Verifikasi</h6>
-                            </div>
-                            <div class="col-sm-6 col-lg-2 col-md-2  border border-dark">
-                                <i class="bi bi-person-check-fill"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Konfirmasi Admin</h6>
-                            </div>
-                            <div class="col-sm-6 col-lg-2 col-md-2  border border-dark">
-                                <i class="bi bi-chat-left-text-fill"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Proses Tindak Lanjut</h6>
-                            </div>
-                            <div class="col-sm-6 col-lg-2 col-md-2  border border-dark">
-                                <i class="bi bi-star-fill"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Berikan Feedback</h6>
-                            </div>
-                            <div class="col-sm-6 col-lg-2 col-md-2  border border-dark">
-                                <i class="bi bi-check-lg"></i>
-                                <h6 class="card-subtitle mb-2 text-muted mt-3">Selesai</h6>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <br><br>
-
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#DC3545" fill-opacity="1"
+            d="M0,32L60,74.7C120,117,240,203,360,202.7C480,203,600,117,720,106.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+    </svg>
     <section id="form-pengaduan" style="background-color: #DC3545;">
         <div class="row d-flex  justify-content-center">
             <h1 class="text-light text-center fw-bold mt-5">PENGADUAN SISWA</h1>
@@ -186,9 +159,13 @@
                 </div>
             </div>
         </div>
-        <br><br>
-    </section>
 
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#DC3545" fill-opacity="1"
+            d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,112C840,117,960,203,1080,208C1200,213,1320,139,1380,101.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+        </path>
+    </svg>
     <section id="pencarian" class=" py-4 justify-content-center" style="height: 100vh;">
         <div class="row justify-content-center">
             <div class="col-12 mb-3">
@@ -301,7 +278,7 @@
     </section>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#DC3545" fill-opacity="1"
-            d="M0,160L80,176C160,192,320,224,480,229.3C640,235,800,213,960,208C1120,203,1280,213,1360,218.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            d="M0,160L60,176C120,192,240,224,360,202.7C480,181,600,107,720,112C840,117,960,203,1080,208C1200,213,1320,139,1380,101.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
         </path>
     </svg>
 @endsection
