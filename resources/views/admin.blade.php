@@ -85,6 +85,7 @@
                                                 <th scope="col">NIS</th>
                                                 <th scope="col">Kategori</th>
                                                 <th scope="col">Lokasi</th>
+                                                <th scope="col">Bukti</th>
                                                 <th scope="col">Keterangan</th>
                                                 <th scope="col">Waktu</th>
                                                 <th scope="col">Aksi</th>
@@ -97,6 +98,13 @@
                                                     <td>{{ $as->input_aspirasi->NIS }}</td>
                                                     <td>{{ $as->kategori->ket_kategori }}</td>
                                                     <td>{{ $as->input_aspirasi->lokasi }}</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                            Lihat Gambar
+                                                        </button>
+
+                                                    </td>
                                                     <td>{{ $as->input_aspirasi->ket }}</td>
                                                     <td>{{ $as->created_at }}</td>
                                                     <td>
@@ -149,6 +157,7 @@
                                                 <th scope="col">NIS</th>
                                                 <th scope="col">Kategori</th>
                                                 <th scope="col">Lokasi</th>
+                                                <th scope="col">Bukti</th>
                                                 <th scope="col">Keterangan</th>
                                                 <th scope="col">Waktu</th>
                                                 <th scope="col">Ratting</th>
@@ -161,6 +170,13 @@
                                                     <td>{{ $as->input_aspirasi->nis }}</td>
                                                     <td>{{ $as->kategori->ket_kategori }}</td>
                                                     <td>{{ $as->input_aspirasi->lokasi }}</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                                            Lihat Gambar
+                                                        </button>
+
+                                                    </td>
                                                     <td>{{ $as->input_aspirasi->ket }}</td>
                                                     <td>{{ $as->created_at }}</td>
                                                     <td>
@@ -190,6 +206,25 @@
         </div>
 
 
+        <!-- Modal -->
+        <div class="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Bukti Pengaduan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <center><img src="{{ asset('storage/' . $as->input_aspirasi->bukti) }}"
+                                class="img-fluid rounded-start" alt="">
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 @endsection
