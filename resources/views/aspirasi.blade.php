@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img src="{{ asset('img/bg.png') }}" alt="" class="img-fluid" srcset="">
+                    <img src="{{ asset('img/bg.png') }}" alt="gambar background" class="img-fluid" srcset="">
                 </div>
             </div>
         </div>
