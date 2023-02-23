@@ -95,7 +95,7 @@
                                             @foreach ($aspirasi as $as)
                                                 <tr>
                                                     <th scope="row">{{ $as->id }}</th>
-                                                    <td>{{ $as->input_aspirasi->NIS }}</td>
+                                                    <td>{{ $as->input_aspirasi->nis }}</td>
                                                     <td>{{ $as->kategori->ket_kategori }}</td>
                                                     <td>{{ $as->input_aspirasi->lokasi }}</td>
                                                     <td>
