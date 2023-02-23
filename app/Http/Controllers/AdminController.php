@@ -23,4 +23,10 @@ class AdminController extends Controller
             ->update(['status' => $request->status]);
         return redirect('/admin');
     }
+    // public function destroy(Request $request)
+    // {
+    //     Aspirasi::where('id_aspirasi',  $request->id_aspirasi)
+    //         ->delete();
+    //     return redirect('/admin');
+    // }
 }

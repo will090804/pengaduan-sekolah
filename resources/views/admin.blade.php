@@ -105,6 +105,14 @@
                                                     <td>{{ $as->input_aspirasi->ket }}</td>
                                                     <td>{{ $as->created_at }}</td>
                                                     <td>
+                                                        {{-- <form action="/admin/delete" method="post">
+                                                            @csrf
+                                                            @method('delete')
+                                                            <input type="hidden" name="id_aspirasi"
+                                                                value="{{ $as->id_aspirasi }}">
+                                                            <button type="submit"
+                                                                class="btn btn-danger btn-sm mb-3 w-100">Delete</button>
+                                                        </form> --}}
                                                         @if ($as['status'] == 'Menunggu')
                                                             <form action="/admin/status" method="post">
                                                                 @csrf
