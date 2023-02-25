@@ -27,4 +27,4 @@ Route::post('/aspirasi/feedback', [AspirasiController::class, 'feedback']);
 //admin
 Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
 Route::post('/admin/status', [AdminController::class, 'status'])->middleware('auth');
-// Route::delete('/admin/delete', [AdminController::class, 'destroy'])->middleware('auth');
+Route::delete('/admin/delete', [AdminController::class, 'destroy'])->middleware('auth');

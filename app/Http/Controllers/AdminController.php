@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Aspirasi;
+use App\Models\Input_Aspirasi;
 use App\Models\Kategori;
 use Illuminate\Http\Request;
 
@@ -23,10 +24,12 @@ class AdminController extends Controller
             ->update(['status' => $request->status]);
         return redirect('/admin');
     }
-    // public function destroy(Request $request)
-    // {
-    //     Aspirasi::where('id_aspirasi',  $request->id_aspirasi)
-    //         ->delete();
-    //     return redirect('/admin');
-    // }
+    public function destroy(Request $request)
+    {
+        Aspirasi::where('id_aspirasi',  $request->id_aspirasi)
+            ->delete();
+        Input_Aspirasi::where('id_pelaporan',  $request->id_aspirasi)
+            ->delete();
+        return redirect('/admin');
+    }
 }
